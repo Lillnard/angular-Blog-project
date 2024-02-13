@@ -1,0 +1,13 @@
+.container h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin: 15px;
+  font-size: 85px;
+}
+
+.container hr{
+  margin: 20px 0 5px 0;
+}
+
