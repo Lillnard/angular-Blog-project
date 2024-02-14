@@ -3,10 +3,10 @@
     <img src="{{imageCover}}" alt="" >
   </div><!--big-card__image  -->
   <div class="big-card__title">
-   <h1><a href="">{{cardTitle}} </a></h1>
+   <h1><a [routerLink]="['content', id]">{{cardTitle}} </a></h1>
   </div>   <!-- big-card__title -->
 
   <div class="big-card__description">
-    <p> <a href="">{{cardDescription}}</a></p>
+    <p> <a [routerLink]="['content', id]">{{cardDescription}}</a></p>
   </div>  <!-- big-card__description -->
 </div><!-- container -->
