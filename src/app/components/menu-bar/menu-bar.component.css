@@ -3,3 +3,21 @@
   list-style: none;
   gap: 30px;
 }
+
+.container ul li{
+transition: 0.2s;
+}
+
+.container ul li a:hover{
+  transition: 0.2s;
+}
+
+.container ul li:hover{
+  transform: scale(1.05);
+}
+
+.container ul li a:hover{
+  color: rgb(110, 110, 110);
+}
+
+

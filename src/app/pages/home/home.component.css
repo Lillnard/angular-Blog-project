@@ -4,3 +4,7 @@
   display: flex;
   justify-content: center;
 }
+
+.articles__small{
+  margin-left: 50px;
+}

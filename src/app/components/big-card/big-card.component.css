@@ -6,6 +6,11 @@
   justify-content: flex-start;
   align-items: flex-start;
   margin: 0 4% ;
+  transition: 0.2s;
+}
+
+.container:hover{
+transform: scale(1.05);
 }
 
 .big-card__image img{
@@ -16,6 +21,11 @@
 .big-card__title{
   margin-top: 15px;
   font-size: 16px;
+  transition: 0.2s;
+}
+
+.big-card__title a:hover{
+  color: rgb(110, 110, 110);
 }
 
 .big-card__description{
@@ -25,4 +35,10 @@
 
 .big-card__description p a{
   color: rgb(110, 110, 110);
+  transition: 0.2s;
 }
+
+.big-card__description p a:hover{
+  color: rgb(255, 255, 255);
+}
+

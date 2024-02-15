@@ -13,6 +13,11 @@
 .back a{
   color: #686868;
   font-weight: bolder;
+  transition: 0.2s
+}
+
+.back a:hover{
+  color: #ffffff;
 }
 
 .container__flex{
